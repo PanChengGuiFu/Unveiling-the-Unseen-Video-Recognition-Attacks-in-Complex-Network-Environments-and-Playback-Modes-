@@ -3,7 +3,7 @@
 # GitHub Repository Description
 
 ## Introduction
-This repository contains the code for the paper "Unveiling the Unseen: Video Recognition Attacks in Complex Network Environments and Playback Modes". As the content of this paper involves sniffing attacks, to prevent misuse, we have limited the functionality of the open-source program. The TLS record restore only displays the results of the TLS stream SNI, including the "video. winning" field.
+This repository contains the code for the paper "Unveiling the Unseen: Video Recognition Attacks in Complex Network Environments and Playback Modes". As the content of this paper involves sniffing attacks, to prevent misuse, we have limited the functionality of the open-source program. The TLS record restore only displays the results of the TLS stream SNI, including the "video.twimg" field.
 
 ## Program and Dataset
 We only provide executable programs and restrict the dataset to data prior to March 2024, providing only five traffic cases under four conditions. The program is divided into Windows and Linux versions. `data.cfg` contains the configuration related to file paths; `twitter` is the program for restoring video segment lengths, `make_db` is the program for building the database, and `match_mul_db` is the recognition program.
